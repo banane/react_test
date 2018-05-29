@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC4C901420BDCEAE00614196 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C901320BDCEAE00614196 /* AppDelegate.m */; };
+		FC4C901720BDCEAE00614196 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C901620BDCEAE00614196 /* ViewController.m */; };
+		FC4C901A20BDCEAE00614196 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4C901820BDCEAE00614196 /* Main.storyboard */; };
+		FC4C901C20BDCEAE00614196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4C901B20BDCEAE00614196 /* Assets.xcassets */; };
+		FC4C901F20BDCEAE00614196 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4C901D20BDCEAE00614196 /* LaunchScreen.storyboard */; };
+		FC4C902220BDCEAE00614196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C902120BDCEAE00614196 /* main.m */; };
+		FC4C902C20BDCEAE00614196 /* reactTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C902B20BDCEAE00614196 /* reactTestTests.m */; };
+		FC4C903720BDCEAE00614196 /* reactTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C903620BDCEAE00614196 /* reactTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC4C902820BDCEAE00614196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4C900720BDCEAE00614196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4C900E20BDCEAE00614196;
+			remoteInfo = reactTest;
+		};
+		FC4C903320BDCEAE00614196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4C900720BDCEAE00614196 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4C900E20BDCEAE00614196;
+			remoteInfo = reactTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC4C900F20BDCEAE00614196 /* reactTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4C901220BDCEAE00614196 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC4C901320BDCEAE00614196 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC4C901520BDCEAE00614196 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC4C901620BDCEAE00614196 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC4C901920BDCEAE00614196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC4C901B20BDCEAE00614196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC4C901E20BDCEAE00614196 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC4C902020BDCEAE00614196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4C902120BDCEAE00614196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC4C902720BDCEAE00614196 /* reactTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4C902B20BDCEAE00614196 /* reactTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactTestTests.m; sourceTree = "<group>"; };
+		FC4C902D20BDCEAE00614196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4C903220BDCEAE00614196 /* reactTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC4C903620BDCEAE00614196 /* reactTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactTestUITests.m; sourceTree = "<group>"; };
+		FC4C903820BDCEAE00614196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC4C900C20BDCEAE00614196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4C902420BDCEAE00614196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4C902F20BDCEAE00614196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC4C900620BDCEAE00614196 = {
+			isa = PBXGroup;
+			children = (
+				FC4C901120BDCEAE00614196 /* reactTest */,
+				FC4C902A20BDCEAE00614196 /* reactTestTests */,
+				FC4C903520BDCEAE00614196 /* reactTestUITests */,
+				FC4C901020BDCEAE00614196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC4C901020BDCEAE00614196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4C900F20BDCEAE00614196 /* reactTest.app */,
+				FC4C902720BDCEAE00614196 /* reactTestTests.xctest */,
+				FC4C903220BDCEAE00614196 /* reactTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC4C901120BDCEAE00614196 /* reactTest */ = {
+			isa = PBXGroup;
+			children = (
+				FC4C901220BDCEAE00614196 /* AppDelegate.h */,
+				FC4C901320BDCEAE00614196 /* AppDelegate.m */,
+				FC4C901520BDCEAE00614196 /* ViewController.h */,
+				FC4C901620BDCEAE00614196 /* ViewController.m */,
+				FC4C901820BDCEAE00614196 /* Main.storyboard */,
+				FC4C901B20BDCEAE00614196 /* Assets.xcassets */,
+				FC4C901D20BDCEAE00614196 /* LaunchScreen.storyboard */,
+				FC4C902020BDCEAE00614196 /* Info.plist */,
+				FC4C902120BDCEAE00614196 /* main.m */,
+			);
+			path = reactTest;
+			sourceTree = "<group>";
+		};
+		FC4C902A20BDCEAE00614196 /* reactTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4C902B20BDCEAE00614196 /* reactTestTests.m */,
+				FC4C902D20BDCEAE00614196 /* Info.plist */,
+			);
+			path = reactTestTests;
+			sourceTree = "<group>";
+		};
+		FC4C903520BDCEAE00614196 /* reactTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC4C903620BDCEAE00614196 /* reactTestUITests.m */,
+				FC4C903820BDCEAE00614196 /* Info.plist */,
+			);
+			path = reactTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC4C900E20BDCEAE00614196 /* reactTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4C903B20BDCEAE00614196 /* Build configuration list for PBXNativeTarget "reactTest" */;
+			buildPhases = (
+				FC4C900B20BDCEAE00614196 /* Sources */,
+				FC4C900C20BDCEAE00614196 /* Frameworks */,
+				FC4C900D20BDCEAE00614196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reactTest;
+			productName = reactTest;
+			productReference = FC4C900F20BDCEAE00614196 /* reactTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC4C902620BDCEAE00614196 /* reactTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4C903E20BDCEAE00614196 /* Build configuration list for PBXNativeTarget "reactTestTests" */;
+			buildPhases = (
+				FC4C902320BDCEAE00614196 /* Sources */,
+				FC4C902420BDCEAE00614196 /* Frameworks */,
+				FC4C902520BDCEAE00614196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4C902920BDCEAE00614196 /* PBXTargetDependency */,
+			);
+			name = reactTestTests;
+			productName = reactTestTests;
+			productReference = FC4C902720BDCEAE00614196 /* reactTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC4C903120BDCEAE00614196 /* reactTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4C904120BDCEAE00614196 /* Build configuration list for PBXNativeTarget "reactTestUITests" */;
+			buildPhases = (
+				FC4C902E20BDCEAE00614196 /* Sources */,
+				FC4C902F20BDCEAE00614196 /* Frameworks */,
+				FC4C903020BDCEAE00614196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC4C903420BDCEAE00614196 /* PBXTargetDependency */,
+			);
+			name = reactTestUITests;
+			productName = reactTestUITests;
+			productReference = FC4C903220BDCEAE00614196 /* reactTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4C900720BDCEAE00614196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Homebase;
+				TargetAttributes = {
+					FC4C900E20BDCEAE00614196 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FC4C902620BDCEAE00614196 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC4C900E20BDCEAE00614196;
+					};
+					FC4C903120BDCEAE00614196 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC4C900E20BDCEAE00614196;
+					};
+				};
+			};
+			buildConfigurationList = FC4C900A20BDCEAE00614196 /* Build configuration list for PBXProject "reactTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC4C900620BDCEAE00614196;
+			productRefGroup = FC4C901020BDCEAE00614196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4C900E20BDCEAE00614196 /* reactTest */,
+				FC4C902620BDCEAE00614196 /* reactTestTests */,
+				FC4C903120BDCEAE00614196 /* reactTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC4C900D20BDCEAE00614196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4C901F20BDCEAE00614196 /* LaunchScreen.storyboard in Resources */,
+				FC4C901C20BDCEAE00614196 /* Assets.xcassets in Resources */,
+				FC4C901A20BDCEAE00614196 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4C902520BDCEAE00614196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4C903020BDCEAE00614196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC4C900B20BDCEAE00614196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4C901720BDCEAE00614196 /* ViewController.m in Sources */,
+				FC4C902220BDCEAE00614196 /* main.m in Sources */,
+				FC4C901420BDCEAE00614196 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4C902320BDCEAE00614196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4C902C20BDCEAE00614196 /* reactTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4C902E20BDCEAE00614196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4C903720BDCEAE00614196 /* reactTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC4C902920BDCEAE00614196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4C900E20BDCEAE00614196 /* reactTest */;
+			targetProxy = FC4C902820BDCEAE00614196 /* PBXContainerItemProxy */;
+		};
+		FC4C903420BDCEAE00614196 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC4C900E20BDCEAE00614196 /* reactTest */;
+			targetProxy = FC4C903320BDCEAE00614196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC4C901820BDCEAE00614196 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4C901920BDCEAE00614196 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC4C901D20BDCEAE00614196 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4C901E20BDCEAE00614196 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC4C903920BDCEAE00614196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC4C903A20BDCEAE00614196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC4C903C20BDCEAE00614196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26442J78L;
+				INFOPLIST_FILE = reactTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinhomebase.mobile.reactTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC4C903D20BDCEAE00614196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26442J78L;
+				INFOPLIST_FILE = reactTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinhomebase.mobile.reactTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC4C903F20BDCEAE00614196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26442J78L;
+				INFOPLIST_FILE = reactTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinhomebase.mobile.reactTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactTest.app/reactTest";
+			};
+			name = Debug;
+		};
+		FC4C904020BDCEAE00614196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26442J78L;
+				INFOPLIST_FILE = reactTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinhomebase.mobile.reactTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactTest.app/reactTest";
+			};
+			name = Release;
+		};
+		FC4C904220BDCEAE00614196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26442J78L;
+				INFOPLIST_FILE = reactTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinhomebase.mobile.reactTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reactTest;
+			};
+			name = Debug;
+		};
+		FC4C904320BDCEAE00614196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C26442J78L;
+				INFOPLIST_FILE = reactTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joinhomebase.mobile.reactTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reactTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC4C900A20BDCEAE00614196 /* Build configuration list for PBXProject "reactTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4C903920BDCEAE00614196 /* Debug */,
+				FC4C903A20BDCEAE00614196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4C903B20BDCEAE00614196 /* Build configuration list for PBXNativeTarget "reactTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4C903C20BDCEAE00614196 /* Debug */,
+				FC4C903D20BDCEAE00614196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4C903E20BDCEAE00614196 /* Build configuration list for PBXNativeTarget "reactTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4C903F20BDCEAE00614196 /* Debug */,
+				FC4C904020BDCEAE00614196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4C904120BDCEAE00614196 /* Build configuration list for PBXNativeTarget "reactTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC4C904220BDCEAE00614196 /* Debug */,
+				FC4C904320BDCEAE00614196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC4C900720BDCEAE00614196 /* Project object */;
+}
