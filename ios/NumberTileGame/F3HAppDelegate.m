@@ -6,6 +6,8 @@
 //
 //
 
+#import <CodePush/CodePush.h>
+
 #import "F3HAppDelegate.h"
 
 @implementation F3HAppDelegate
