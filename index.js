@@ -10,10 +10,12 @@ import {
 
 class RNHighScores extends React.Component {
   render() {
-    console.log(this.props["scores"]);
-    var contents = this.props["scores"].map(
-      score => <Text key={score.name}>{score.name}:{score.value}{"\n"}</Text>
+    const contents = this.props.scores.map(score =>
+      <Text key={score.name}>
+        {score.name}:{score.value}
+      </Text>
     );
+
     return (
       <View style={styles.container}>
         <Text style={styles.highScoresTitle}>
