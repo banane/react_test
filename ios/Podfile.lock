@@ -7,6 +7,7 @@ PODS:
   - AppCenter/Core (1.5.0)
   - AppCenter/Crashes (1.5.0):
     - AppCenter/Core
+  - Base64 (1.1.2)
   - boost (1.59.0):
     - boost/graph-includes (= 1.59.0)
     - boost/math-includes (= 1.59.0)
@@ -22,12 +23,21 @@ PODS:
   - boost/preprocessor-includes (1.59.0)
   - boost/shared_ptr-includes (1.59.0)
   - boost/string_algorithms-includes (1.59.0)
+  - CodePush (5.3.4):
+    - Base64 (~> 1.1)
+    - JWT (~> 3.0.0-beta.7)
+    - React
+    - SSZipArchive (~> 2.1)
   - DoubleConversion (1.1.5)
   - Folly (2016.09.26.00):
     - boost
     - DoubleConversion
     - GLog
   - GLog (0.3.4)
+  - JWT (3.0.0-beta.7):
+    - Base64 (~> 1.1.2)
+  - React (0.52.3):
+    - React/Core (= 0.52.3)
   - React/Core (0.52.3):
     - yoga (= 0.52.3.React)
   - React/CxxBridge (0.52.3):
@@ -60,10 +70,12 @@ PODS:
     - React/RCTBlob
   - React/tvOS (0.52.3):
     - React/Core
+  - SSZipArchive (2.1.1)
   - yoga (0.52.3.React)
 
 DEPENDENCIES:
   - AppCenter
+  - CodePush (from `../node_modules/react-native-code-push`)
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - GLog (from `../node_modules/react-native/third-party-podspecs/GLog.podspec`)
@@ -79,9 +91,14 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AppCenter
+    - Base64
     - boost
+    - JWT
+    - SSZipArchive
 
 EXTERNAL SOURCES:
+  CodePush:
+    :path: "../node_modules/react-native-code-push"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   Folly:
@@ -95,13 +112,17 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AppCenter: 42c293f0de27e173aacd600a55a49da5317cd40e
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
   boost: 30a15ffb6d9aa4646dd3caffc960753f4cb4ca4e
+  CodePush: f6b348759cdc42c734d9c3a46ceb2997c270b12e
   DoubleConversion: ebb6747c5b66026ad4f97b789c3ceac6f18e57a6
   Folly: b7255b29f1d693c375d642d0f04f0592181156d9
   GLog: 3e4e4ae9746ce6bf6e9420c7fc1e08ad59c8ba1a
+  JWT: 8a0c3e95ee8d521a7eafb108b0496eac18a1bc2e
   React: 43e97926f429d846050880666de1809e22dd5cc5
+  SSZipArchive: 14401ade5f8e82aba1ff03e9f88e9de60937ae60
   yoga: 55da126afc384965b96bff46652464373b330add
 
-PODFILE CHECKSUM: 069f501a64dafdb8242c42762bda096a4b04761b
+PODFILE CHECKSUM: ae2fcd9cf52ce5f6158da1645425f987746da000
 
 COCOAPODS: 1.5.0

@@ -13,6 +13,8 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
+#import <CodePush/CodePush.h>
+
 @interface F3HViewController ()
 @end
 
@@ -33,6 +35,8 @@
     NSURL *jsCodeLocation;
     
     jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
+//    [NSURL URLWithString:@"http://localhost:8081/index.bundle?platform=ios&dev=true"];
+//    jsCodeLocation = [CodePush bundleURL];
     
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                         moduleName:@"RNHighScores"
